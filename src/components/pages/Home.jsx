@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
-import {About, Banner, CaseStudy, Education, Footer, Header, Specilizing} from '../layouts/home03/index'
-import {Testimonial} from '../layouts/home02/index';
-class Home03 extends Component {
+import {About, Banner, CaseStudy, Education, Footer, Header, Project, Services} from '../layouts/home/index';
+
+class Home extends Component {
     render() {
         return (
-            <div className="body-copyright-light fixed counter-scroll has-one-page home3">              
-                <div id="mobile-menu-overlay"><span className="tf-close" /></div>
+            <div className="counter-scroll fixed counter-scroll home2 has-one-page">
+                <div id="mobile-menu-overlay" />
                 <Header />
                 <div id="content" className="content">
                     <div className="homepage-personal">
                         <Banner />
                         <About />
-                        <Specilizing />
+                        <Services />
                         <Education />
                         <CaseStudy />
-                        <Testimonial />
+                        <Project />
                         <Footer />
                     </div>
                 </div>
@@ -23,4 +23,4 @@ class Home03 extends Component {
     }
 }
 
-export default Home03;
+export default Home;

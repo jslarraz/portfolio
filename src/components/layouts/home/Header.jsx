@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import links from '../links';
 import menus from '../menus';
-import bloglinks from '../bloglinks';
+
 
 class Header extends Component {
     constructor(props){
@@ -41,24 +41,12 @@ class Header extends Component {
                                                 <li key={menu.id}><Link to={menu.tomenu} className="click-model">{menu.namemenu}</Link></li>
                                             ))
                                         }                           
-                                        <li><Link to="#">Blog</Link>
-                                            <ul className="sub-menu" >
-                                                {
-                                                    bloglinks.map(data => (
-                                                        <li key={data.id}>
-                                                            <Link to={data.toblog} onClick={() => {window.location.href=data.toblog}}>
-                                                                {data.nameblog}
-                                                            </Link>
-                                                        </li>
-                                                    ))
-                                                }
-                                            </ul>
-                                        </li> 
+
                                     </ul>
                                 </nav>
                             </div>
                             <div className="hire-me-s1 btn-general btn-hv-common d-lg-flex align-items-center">
-                                <Link to="#" className="btn-inner border-corner2 lt-sp08 text-white">Hire Me</Link>
+                                <Link to="#" className="btn-inner border-corner2 lt-sp08 text-white">Contact Me</Link>
                             </div>
                         </div>
                         <div dir="rtl" className="btn-menu mobile-header__menu-button">

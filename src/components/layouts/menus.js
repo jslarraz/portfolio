@@ -7,23 +7,18 @@ const menus = [
     {
         id: 2,
         tomenu: "#services",
-        namemenu: "services"
+        namemenu: "Services"
     },
     {
         id: 3,
-        tomenu: "#portfolio",
-        namemenu: "Portfolio"
+        tomenu: "#resume",
+        namemenu: "Education"
     },
     {
         id: 4,
-        tomenu: "#testimonial",
-        namemenu: "Testimonial"
-    },
-    {
-        id: 5,
-        tomenu: "#resume",
-        namemenu: "Resume"
-    },
+        tomenu: "#portfolio",
+        namemenu: "Portfolio"
+    }
 ];
 
 

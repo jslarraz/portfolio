@@ -1,19 +1,8 @@
-import Home01 from './Home01';
-import Home02 from './Home02';
-import Home03 from './Home03';
-import Home04 from './Home04';
-import Home05 from './Home05';
-import Blog from './Blog';
-import BlogSingle from './BlogSingle';
+
+import Home from './Home';
 
 const routes = [
-    { path: "/", component: Home01},
-    { path: "/home-02", component: Home02},
-    { path: "/home-03", component: Home03},
-    { path: "/home-04", component: Home04},
-    { path: "/home-05", component: Home05},
-    { path: "/blog", component: Blog},
-    { path: "/blog-single", component: BlogSingle},
+    { path: "/", component: Home}
 ]
 
 export default routes;

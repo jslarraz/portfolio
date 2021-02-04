@@ -16,7 +16,7 @@ class Banner extends Component {
                             </span>
                         </h1>
                         <p className="lt-sp03 mg-b60 text-white">
-                            Hi, i m Jorge, doctor in cybersecurity looking for new challenges <br />
+                            Hi, i m Jorge, doctor in cybersecurity looking for new challenges.<br />
                             Wanna talk about it?
 
                         </p>
