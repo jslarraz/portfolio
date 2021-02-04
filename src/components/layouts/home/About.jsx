@@ -9,7 +9,7 @@ class About extends Component {
                 {
                     id: 1,
                     classname: 'profile-link border-corner2 d-flex align-items-center',
-                    images: './images/section/05.png',
+                    images: './images/section/linkedin.png',
                     alt: 'images',
                     name: 'LinkedIn',
                     normal: 'Follow Me'
@@ -17,7 +17,7 @@ class About extends Component {
                 {
                     id: 2,
                     classname: 'profile-link border-corner2 d-flex align-items-center',
-                    images: './images/section/06.png',
+                    images: './images/section/github.png',
                     alt: 'images',
                     name: 'GitHub',
                     normal: 'See My Work'
