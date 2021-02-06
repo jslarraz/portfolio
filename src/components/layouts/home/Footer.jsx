@@ -11,7 +11,7 @@ class Footer extends Component {
                             <div className="row">
                                 <div className="col-lg-4">
                                     <div className="copyright lt-sp02">
-                                        © Roy Design, 2020 All rights reserved.
+                                        © Jorge Sancho, 2021 All rights reserved.
                                     </div>
                                 </div>
                                 <div className="col-lg-6">

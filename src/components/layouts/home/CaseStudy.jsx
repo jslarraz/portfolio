@@ -27,7 +27,7 @@ class CaseStudy extends Component {
                             </div>
                             <div className="flat-spacer" data-desktop={0} data-mobile={100} data-smobile={100} />
                             <div className="col-right animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
-                                <div className="flat-title t2 mg-b60">
+                                <div className="flat-title t1 mg-b60">
                                     <h4 className="sub-title mg-b13">Portfolio</h4>
                                     <h2 className="title-section color-d12 mg-b20">Few selected works.</h2>
                                     <p>

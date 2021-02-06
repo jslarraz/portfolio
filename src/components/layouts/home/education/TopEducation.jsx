@@ -9,24 +9,24 @@ class TopEducation extends Component {
                     id: 1,
                     classname: 'experience-box experience-box-line t3',
                     datawow: '0.3s',
-                    year: 'Universite of Udacity',
-                    title: 'User Experience Design',
+                    year: 'University of Zaragoza',
+                    title: 'Computer science graduate',
                     text: 'User experience (UX) design is the process design teams use to create products.'
                 },
                 {
                     id: 2,
                     classname: 'experience-box experience-box-line t3',
                     datawow: '0.5s',
-                    year: 'Udemy',
-                    title: 'User Centered Design',
+                    year: 'University of Zaragoza',
+                    title: 'Computer science masters',
                     text: 'User experience (UX) design is the process design teams use to create products.'
                 },
                 {
                     id: 3,
                     classname: 'experience-box t3',
                     datawow: '0.7s',
-                    year: 'Skil Share',
-                    title: 'Interaction Design',
+                    year: 'University of Zaragoza',
+                    title: 'PhD on cybersecurity',
                     text: 'User experience (UX) design is the process design teams use to create products.'
                 }
             ],
@@ -35,27 +35,27 @@ class TopEducation extends Component {
                     id: 1,
                     classname: 'experience-box experience-box-line t3',
                     datawow: '0.8s',
-                    year: '2013 - 2015',
-                    title: 'Designer at',
-                    office: 'Microsoft',
+                    year: '2017 - 2021',
+                    title: 'Researcher at',
+                    office: 'Unizar',
                     text: 'User experience (UX) design is the process design teams use to create products.'
                 },
                 {
                     id: 2,
                     classname: 'experience-box experience-box-line t3',
                     datawow: '1s',
-                    year: '2013 - 2017',
-                    title: 'User Researcher at',
-                    office: 'Apple',
-                    text: 'User experience (UX) design is the process design teams use to create products.'
+                    year: '2017 - 2020',
+                    title: 'Professor at',
+                    office: 'ACING',
+                    text: 'Responsable del modulo "Diseño de arquitecturas seguras" en el Curso Avanzado de Ciberdefensa en la Academia de Ingenieros del Ejercito (ACING).'
                 },
                 {
                     id: 3,
                     classname: 'experience-box t3',
                     datawow: '1.2s',
                     year: '2017 - 2020',
-                    title: 'Lead Designer at',
-                    office: 'Dripple',
+                    title: 'Assistant at',
+                    office: 'COIT',
                     text: 'User experience (UX) design is the process design teams use to create products.'
                 }
             ]

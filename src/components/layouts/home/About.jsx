@@ -73,6 +73,8 @@ class About extends Component {
                                                 <Link to="#" className="f-w500 color-1 lt-sp07">Download CV</Link>
                                             </div>
                                         </div>
+                                        <div style={{height: 30}}>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
