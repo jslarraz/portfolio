@@ -4,7 +4,7 @@ class CaseStudy extends Component {
     render() {
         return (
             <div className="tf-modal-content">
-                <section className="flat-case-study s3" id="portfolio">
+                <section className="flat-case-study s1" id="portfolio">
                     <div className="container">
                         <div className="d-md-flex">
                             <div className="col-left animate-element wow delay5 fadeInDown" data-wow-delay="0.5s">

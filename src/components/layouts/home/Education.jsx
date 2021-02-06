@@ -5,7 +5,7 @@ class Education extends Component {
     render() {
         return (
             <div className="tf-modal-content">
-                <section className="flat-education s3 position-relative banner-section" id="resume">
+                <section className="flat-education s1 position-relative" id="resume">
                     <div className="container">
                         <div className="flat-title t1 animate-element wow delay5 fadeInDown" data-wow-delay="0.5s">
                             <h4 className="sub-title mg-b13">Educational qualification</h4>
