@@ -64,12 +64,13 @@ class About extends Component {
                                             <h4 className="sub-title mg-b22">About Me</h4>
                                             <h2 className="title-section mg-b26 color-d12">Hi, I am here to <span className="color-d4">help you.</span></h2>
                                             <p>
-                                                Hi, if you need  PSD template, landing page or Website design within a day? then you can tell me, I'm here to help you. I can design any kind of PSD template. Check my portfolio.
+                                                I know it sounds crazy but it is true, I'm currently available to work with you. I've just finished my doctoral studies and I'm looking for a job.  <br /><br />
+                                                My expertise is around the design of secure architectures with special focus on Identity and Access Management and API design and security.
                                             </p>
                                         </div>
                                         <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
                                             <div className="fl-btn btn-general">
-                                                <Link to="#" className="f-w500 color-1 lt-sp07">Hire Me</Link>
+                                                <Link to="#" className="f-w500 color-1 lt-sp07">Download CV</Link>
                                             </div>
                                         </div>
                                     </div>

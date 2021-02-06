@@ -1,13 +1,13 @@
 const menus = [
     {
         id: 1,
-        tomenu: "#about",
-        namemenu: "About"
+        tomenu: "#home",
+        namemenu: "Home"
     },
     {
         id: 2,
-        tomenu: "#services",
-        namemenu: "Services"
+        tomenu: "#about",
+        namemenu: "About"
     },
     {
         id: 3,

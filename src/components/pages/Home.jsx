@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {About, Banner, CaseStudy, Education, Footer, Header, Project, Services} from '../layouts/home/index';
+import {About, Banner, CaseStudy, Education, Footer, Header, Project} from '../layouts/home/index';
 
 class Home extends Component {
     render() {
@@ -11,7 +11,6 @@ class Home extends Component {
                     <div className="homepage-personal">
                         <Banner />
                         <About />
-                        <Services />
                         <Education />
                         <CaseStudy />
                         <Project />
