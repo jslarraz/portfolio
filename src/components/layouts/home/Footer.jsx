@@ -15,12 +15,7 @@ class Footer extends Component {
                                     </div>
                                 </div>
                                 <div className="col-lg-6">
-                                    <ul className="widget-nav-menu color-s2">
-                                        <li><Link to="#">Home</Link></li>
-                                        <li><Link to="#">Portfolio</Link></li>
-                                        <li><Link to="#">About</Link></li>
-                                        <li><Link to="#">Contact</Link></li>
-                                    </ul>
+
                                 </div>
                                 <div className="col-lg-2">
                                     <div className="socials-list color-s2">
