@@ -1526,8 +1526,8 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 
 .profile.s1 .col-left {
     width: 49%;
-    padding-top: 150px;
-    padding-left: 80px;
+    padding-top: 120px;
+    padding-left: 90px;
 }
 .profile.s1 .col-right {
     width: 51%;
@@ -1830,7 +1830,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 -------------------------------------------------------------- */
 .flat-education.s1 {
     overflow: hidden;
-    padding: 156px 0 333px;
+    padding: 150px 0 200px;
 }
 .flat-education.s1 .shape-right {
     top: -270px;
@@ -1848,6 +1848,19 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     padding-left: 150px;
     z-index: 1;
 }
+
+.flat-education.s1 .animate-element .fl-btn {
+    padding: 45px 0 0 60px;
+}
+
+
+.flat-education.s1 .animate-element .fl-btn a {
+    padding: 12px 30px 12px 30px;
+    background: rgb(16,32,57);
+    background: linear-gradient(-135deg, rgba(222, 186, 68,1) 0%, rgba(16,32,57, 1) 100%);
+}
+
+
 .flat-education.s1 .flat-title {
     margin-bottom: 80px;
 }
@@ -2273,7 +2286,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     background-repeat: no-repeat;
 }
 .footer-s2 {
-    background-image: url('../images/footer/03.jpg');
+    /* background-image: url('../images/footer/03.jpg'); */
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -2348,7 +2361,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     padding: 52px 0 80px 0;
 }
 .bottom-s3 {
-    padding: 45px 0 82px 0;
+    padding: 15px 0 15px 0;
 }
 .bottom-s4 {
     padding: 68px 0;

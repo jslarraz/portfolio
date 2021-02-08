@@ -73,7 +73,7 @@ class About extends Component {
                             <div className="d-lg-flex">
                                 <div className="col-left">
                                     <div className="featured-post animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
-                                        <img style={{width: '60%'}} src="images/section/03.png" alt="images"/>
+                                        <img style={{width: '70%'}} src="images/section/03.png" alt="images"/>
                                     </div>
                                 </div>
                                 <div className="col-right">
