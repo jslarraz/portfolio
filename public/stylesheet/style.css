@@ -1521,15 +1521,20 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 .profile.s1 {
     z-index: 99;
     position: relative;
-    padding: 100px 0;
+    padding: 150px 0 200px;
 }
+
 .profile.s1 .col-left {
     width: 49%;
+    padding-top: 150px;
+    padding-left: 80px;
 }
 .profile.s1 .col-right {
     width: 51%;
     padding-left: 23px;
 }
+
+/*
 .profile.s1 .background-white {
     background-color: #fbf7ff;
     padding: 40px 15px 0px 25px;
@@ -1539,6 +1544,20 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
     box-shadow: 0 0 30px 0 rgba(16, 32, 57, 0.05);
     margin-top: -470px;
 }
+ */
+
+.profile.s1 .background-white {
+    background-color: #ffffff;
+    padding: 40px 15px 0px 25px;
+
+    border-radius: 42px;
+    -webkit-box-shadow: 0 0 30px 0 rgba(16, 32, 57, 0.05);
+    -moz-box-shadow: 0 0 30px 0 rgba(16, 32, 57, 0.05);
+    box-shadow: 0 0 30px 0 rgba(16, 32, 57, 0.05);
+}
+
+
+
 .profile.s1 .fl-btn a {
     padding: 10px 39px 12px 38px;
     border: 1px solid #ffffff00;

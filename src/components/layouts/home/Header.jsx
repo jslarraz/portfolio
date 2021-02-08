@@ -15,9 +15,8 @@ class Header extends Component {
                 <div className="container">
                     <div className="flex-header d-flex justify-content-between align-items-center">
                         <div className="socials-list-hd s1 hv1">
-                            <Link to="#"><i className="fa fa-facebook" aria-hidden="true" /></Link>
-                            <Link to="#"><i className="fa fa-twitter" aria-hidden="true" /></Link>
-                            <Link to="#"><i className="fa fa-instagram" aria-hidden="true" /></Link>
+                            <Link to="#" style={{fontWeight: 'bold'}}>EN</Link>
+                            <Link to="#">ES</Link>
                         </div>
                         <div className="content-menu d-lg-flex">
                             <div className="nav-wrap">
@@ -51,3 +50,12 @@ class Header extends Component {
 }
 
 export default Header;
+
+
+/*
+                        <div className="socials-list-hd s1 hv1">
+                            <Link to="#"><i className="fa fa-facebook" aria-hidden="true" /></Link>
+                            <Link to="#"><i className="fa fa-twitter" aria-hidden="true" /></Link>
+                            <Link to="#"><i className="fa fa-instagram" aria-hidden="true" /></Link>
+                        </div>
+ */

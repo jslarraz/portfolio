@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { TopEducation } from './education/index';
+import {Link} from "react-router-dom";
 
 class Education extends Component {
     render() {
@@ -11,6 +12,7 @@ class Education extends Component {
                             <h4 className="sub-title mg-b13">Educational qualification</h4>
                             <h2 className="title-section color-d12">Education &amp; Experience</h2>
                         </div>
+
                         <TopEducation />
                     </div>
                 </section>

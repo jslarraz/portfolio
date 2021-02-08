@@ -66,21 +66,18 @@ class About extends Component {
     render() {
         return (
 
-            <div className="section slide-personal-Intro-second slide-dark bg-white">
-                <section className="testimonial s1 shape-am" id="testimonial">
-                </section>
-
-                <section className="profile s1">
-                    <div className="container" id="about">
+            <div className="tf-modal-content" >
+                <section className="profile s1 position-relative" id="about">
+                    <div className="container" >
                         <div className="background-white">
                             <div className="d-lg-flex">
                                 <div className="col-left">
                                     <div className="featured-post animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
-                                        <img style={{width: '60%', margin: '100px', alignContent: 'center'}} src="images/section/03.png" alt="images"/>
+                                        <img style={{width: '60%'}} src="images/section/03.png" alt="images"/>
                                     </div>
                                 </div>
                                 <div className="col-right">
-                                    <div className="flat-spacer" data-desktop="105" data-mobile="50" data-smobile="50"></div>
+                                    <div className="flat-spacer" data-desktop="55" data-mobile="20" data-smobile="20"></div>
                                     <div className="flat-title t1">
                                         <div className="animate-element wow delay5 fadeInDown" data-wow-delay="0.5s">
                                             <h4 className="sub-title mg-b22">About Me</h4>
@@ -90,13 +87,6 @@ class About extends Component {
                                                 My expertise is around the design of secure architectures with special focus on Identity and Access Management and API design and security. <br /><br />
                                                 {this.props.language}
                                             </p>
-                                        </div>
-                                        <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
-                                            <div className="fl-btn btn-general">
-                                                <Link to="#" className="f-w500 color-1 lt-sp07">Download CV</Link>
-                                            </div>
-                                        </div>
-                                        <div style={{height: 30}}>
                                         </div>
                                     </div>
                                 </div>
