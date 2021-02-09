@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import links from '../links';
 import menus from '../menus';
 
 
@@ -15,20 +14,18 @@ class Header extends Component {
                 <div className="container">
                     <div className="flex-header d-flex justify-content-between align-items-center">
                         <div className="socials-list-hd s1 hv1">
-                            <Link to="#" style={{fontWeight: 'bold'}}>EN</Link>
-                            <Link to="#">ES</Link>
+                            <Link to="#"  style={{fontWeight: 'bold'}}>EN</Link>
+                            <Link to="#" >ES</Link>
                         </div>
                         <div className="content-menu d-lg-flex">
                             <div className="nav-wrap">
                                 <nav id="mainnav" className="mainnav">
                                     <ul className="menu ace-responsive-menu" data-menu-style="horizontal">
-
                                         {
                                             menus.map(menu => (
                                                 <li key={menu.id}><Link to={menu.tomenu} className="click-model">{menu.namemenu}</Link></li>
                                             ))
-                                        }                           
-
+                                        }
                                     </ul>
                                 </nav>
                             </div>

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
 
+
 class About extends Component {
     constructor(props){
         super(props);
-        console.log("about lan: " + props.language)
 
         this.state = {
             profile: [
@@ -42,28 +42,9 @@ class About extends Component {
                 }
             ]
         }
-
-        let content = {
-            English: {
-                title: "What We Do",
-                whatWeDo: `<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-      <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>`
-            },
-            Spanish: {
-                title: "ഞങ്ങൾ എന്തെല്ലാം ചെയ്യും",
-                whatWeDo: `<p>പ്രിന്റ് ആൻഡ് ടൈപ്പുചെയ്യൽ വ്യവസായത്തിന്റെ ഡമ്മി കോഡാണ് ലോറെം ഇപ്സിയം . 1500-കൾ മുതൽ ലൊറെം ഇപ്സം വ്യവസായത്തിന്റെ സ്റ്റാൻഡേർഡ് ഡമ്മി പാഠമാണ്, അജ്ഞാതമായ ഒരു പ്രിന്റർ ഒരു തരം ഗാലക്സി എടുത്ത് ഒരു സ്പെസിഫിക്കേഷൻ ബുക്ക് ഉണ്ടാക്കാൻ അതിനെ അണിനിരത്തി.</p>
-      <p>അഞ്ചു നൂറ്റാണ്ടുകൾക്കു ശേഷവും, ഇലക്ട്രോണിക്ക് ടൈപ്പ്സെറ്റിംഗിൽ കുതിച്ചുചാട്ടം, അത് മാറ്റമില്ലാതെ തുടരുകയാണ്.</p>
-      `
-            }
-        };
-
-
-        props.language === "Spanish"
-            ? (content = content.Spanish)
-            : (content = content.English);
-
     }
     render() {
+        const {t} = this.props
         return (
 
             <div className="tf-modal-content" >
@@ -83,9 +64,7 @@ class About extends Component {
                                             <h4 className="sub-title mg-b22">About Me</h4>
                                             <h2 className="title-section mg-b26 color-d12">Hi, I am here to <span className="color-d4">help you.</span></h2>
                                             <p>
-                                                I know it sounds crazy but it is true, I'm currently available to work with you. I've just finished my doctoral studies and I'm looking for a job.  <br /><br />
-                                                My expertise is around the design of secure architectures with special focus on Identity and Access Management and API design and security. <br /><br />
-                                                {this.props.language}
+
                                             </p>
                                         </div>
                                     </div>
@@ -118,4 +97,4 @@ class About extends Component {
     }
 }
 
-export default About;
+export default  (About);

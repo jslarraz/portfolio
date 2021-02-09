@@ -4,8 +4,6 @@ import {About, Banner, CaseStudy, Education, Footer, Header, Project} from '../l
 class Home extends Component {
     constructor(props){
         super(props);
-
-        console.log("home lan: " + props.language)
     }
 
     render() {
@@ -16,7 +14,7 @@ class Home extends Component {
                 <div id="content" className="content">
                     <div className="homepage-personal">
                         <Banner />
-                        <About  language={this.props.language}/>
+                        <About />
                         <Education />
                         <CaseStudy />
                         <Project />

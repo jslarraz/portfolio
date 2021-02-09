@@ -9,21 +9,12 @@ class Footer extends Component {
                     <div id="bottom" className="bottom-s3">
                         <div className="container">
                             <div className="row">
-                                <div className="col-lg-4">
+                                <div className="col-lg-12">
                                     <div className="copyright lt-sp02">
                                         © Jorge Sancho, 2021 All rights reserved.
                                     </div>
                                 </div>
-                                <div className="col-lg-6">
 
-                                </div>
-                                <div className="col-lg-2">
-                                    <div className="socials-list color-s2">
-                                        <Link to="#"><i className="fa fa-facebook" aria-hidden="true" /></Link>
-                                        <Link to="#"><i className="fa fa-twitter" aria-hidden="true" /></Link>
-                                        <Link to="#"><i className="fa fa-instagram" aria-hidden="true" /></Link>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -34,3 +25,16 @@ class Footer extends Component {
 }
 
 export default Footer;
+
+/*
+                              <div className="col-lg-6">
+
+                                </div>
+                                <div className="col-lg-2">
+                                    <div className="socials-list color-s2">
+                                        <Link to="#"><i className="fa fa-facebook" aria-hidden="true" /></Link>
+                                        <Link to="#"><i className="fa fa-twitter" aria-hidden="true" /></Link>
+                                        <Link to="#"><i className="fa fa-instagram" aria-hidden="true" /></Link>
+                                    </div>
+                                </div>
+ */
