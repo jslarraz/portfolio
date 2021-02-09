@@ -1,8 +1,80 @@
 {
-  "hello.label": "Hello",
-  "thankyou.label": "Thank you",
 
-  "this_is_an_example": "Puede parece una locura, pero funciona"
+
+  "about": {
+    "subtitle": "Sobre mi",
+    "title": {
+      "b": "Estoy aqui para ",
+      "y": "ayudarte."
+    },
+    "content": "Cosas sobre mi que no le importan a nadie"
+  },
+
+
+  "profile": [
+    {
+      "name": "LinkedIn",
+      "normal": "Sigueme"
+    },
+    {
+      "name": "GitHub",
+      "normal": "Mira mi trabajo"
+    },
+    {
+      "name": "CENIT",
+      "normal": "Posicion actual"
+    },
+    {
+      "name": "Skype",
+      "normal": "¿Hablamos?"
+    }
+  ],
+
+
+  "education": {
+    "subtitle": "Cualificationes ",
+    "title": "Educacion & Experiencia",
+    "button": "Descargar CV",
+    "content": {
+      "top": [
+        {
+          "year": "Universidad de Zaragoza",
+          "title": "Grado en Ing. Telecomunicaciones",
+          "text": "User experience (UX) design is the process design teams use to create products."
+        },
+        {
+          "year": "Universidad de Zaragoza",
+          "title": "Master en Ing. Telecomunicaciones",
+          "text": "User experience (UX) design is the process design teams use to create products."
+        },
+        {
+          "year": "Universidad de Zaragoza",
+          "title": "Doctorado en Ciberseguridad",
+          "text": "User experience (UX) design is the process design teams use to create products."
+        }
+      ],
+      "bot": [
+        {
+          "year": "2017 - 2021",
+          "title": "Investigador en ",
+          "office": "Unizar",
+          "text": "User experience (UX) design is the process design teams use to create products."
+        },
+        {
+          "year": "2017 - 2020",
+          "title": "Profesor en ",
+          "office": "ACING",
+          "text": "Responsable del modulo \"Diseño de arquitecturas seguras\" en el Curso Avanzado de Ciberdefensa en la Academia de Ingenieros del Ejercito (ACING)."
+        },
+        {
+          "year": "2017 - 2020",
+          "title": "Asistente en ",
+          "office": "COIT",
+          "text": "User experience (UX) design is the process design teams use to create products."
+        }
+      ]
+    }
+  }
 
 
 }

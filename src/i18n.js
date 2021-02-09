@@ -15,7 +15,9 @@ i18n
     .use(initReactI18next) // pass the i18n instance to react-i18next.
     .init({
 
+        /*
         lng: "en",
+        */
 
         fallbackLng, // fallback language is english.
 

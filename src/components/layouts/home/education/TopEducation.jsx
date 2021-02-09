@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import { withTranslation } from 'react-i18next'
+
+
 class TopEducation extends Component {
     constructor(props) {
         super(props);
@@ -63,6 +66,7 @@ class TopEducation extends Component {
     }
     
     render() {
+        const {t} = this.props
         return (
             <div className="animate-element delay5 fadeInUp">
                 <div className="padding-bottom">
@@ -72,11 +76,11 @@ class TopEducation extends Component {
                                 <div className="col-lg-4 col-12 last-col animate-element wow delay5 fadeIn" data-wow-delay={data.datawow} key={data.id}>
                                     <div className={data.classname}>
                                         <div className="box-inner">
-                                        <h3 className="f-info bg-s1 color-d6">{data.year}</h3>
+                                        <h3 className="f-info bg-s1 color-d6">{t('education.content.top.' + (data.id-1) + '.year')}</h3>
                                         <div className="exp-wrap">
-                                            <div className="s-info mg-b11">{data.title}</div>
+                                            <div className="s-info mg-b11">{t('education.content.top.' + (data.id-1) + '.title')}</div>
                                             <p>
-                                            {data.text}
+                                                {t('education.content.top.' + (data.id-1) + '.text')}
                                             </p>
                                         </div>
                                         </div>
@@ -92,11 +96,11 @@ class TopEducation extends Component {
                             <div className="col-lg-4 col-12 last-col animate-element wow delay5 fadeIn" data-wow-delay={data.datawow} key={data.id}>
                                 <div className={data.classname}>
                                     <div className="box-inner">
-                                    <h3 className="f-info bg-s1 color-d6">{data.year}</h3>
+                                    <h3 className="f-info bg-s1 color-d6">{t('education.content.bot.' + (data.id-1) + '.year')}</h3>
                                     <div className="exp-wrap">
-                                        <div className="s-info mg-b11">{data.title} <Link to="#">{data.office}</Link></div>
+                                        <div className="s-info mg-b11">{t('education.content.bot.' + (data.id-1) + '.title')} <Link to="#">{t('education.content.bot.' + (data.id-1) + '.office')}</Link></div>
                                         <p>
-                                            {data.text} 
+                                            {t('education.content.bot.' + (data.id-1) + '.text')}
                                         </p>        
                                     </div>
                                     </div>
@@ -110,4 +114,4 @@ class TopEducation extends Component {
     }
 }
 
-export default TopEducation;
+export default withTranslation() (TopEducation);
