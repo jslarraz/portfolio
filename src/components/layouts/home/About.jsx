@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom'
-
+import { withTranslation } from 'react-i18next'
 
 class About extends Component {
     constructor(props){
@@ -45,8 +45,8 @@ class About extends Component {
     }
     render() {
         const {t} = this.props
-        return (
 
+        return (
             <div className="tf-modal-content" >
                 <section className="profile s1 position-relative" id="about">
                     <div className="container" >
@@ -64,7 +64,7 @@ class About extends Component {
                                             <h4 className="sub-title mg-b22">About Me</h4>
                                             <h2 className="title-section mg-b26 color-d12">Hi, I am here to <span className="color-d4">help you.</span></h2>
                                             <p>
-
+                                                {t('this_is_an_example')}
                                             </p>
                                         </div>
                                     </div>
@@ -97,4 +97,4 @@ class About extends Component {
     }
 }
 
-export default  (About);
+export default withTranslation() (About);

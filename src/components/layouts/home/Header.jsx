@@ -2,20 +2,26 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import menus from '../menus';
 
+import { withTranslation } from 'react-i18next'
+
 
 class Header extends Component {
     constructor(props){
         super(props);
         this.state = {}
     }
+
     render() {
+
+        const { i18n } = this.props
+
         return (
             <header id="header" className="header header-style1">
                 <div className="container">
                     <div className="flex-header d-flex justify-content-between align-items-center">
                         <div className="socials-list-hd s1 hv1">
-                            <Link to="#"  style={{fontWeight: 'bold'}}>EN</Link>
-                            <Link to="#" >ES</Link>
+                            <Link to="#" onClick={() => { i18n.changeLanguage('en'); }} style={{fontWeight: 'bold'}}>EN</Link>
+                            <Link to="#" onClick={() => { i18n.changeLanguage('es'); }}>ES</Link>
                         </div>
                         <div className="content-menu d-lg-flex">
                             <div className="nav-wrap">
@@ -46,7 +52,7 @@ class Header extends Component {
     }
 }
 
-export default Header;
+export default withTranslation() (Header);
 
 
 /*
