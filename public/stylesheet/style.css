@@ -843,7 +843,8 @@ input::-webkit-input-placeholder {
 -------------------------------------------------------------- */
 #mainnav .menu li a {
     font-size: 17px;
-    color: #dcc2f3;
+    /* color: #dcc2f3; */
+    color: #ffffff;
 }
 #mainnav .menu > li {
     display: inline-block;
