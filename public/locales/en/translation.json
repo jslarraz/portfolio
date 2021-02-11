@@ -47,33 +47,34 @@
    "content": {
      "top": [
        {
-         "year": "University of Zaragoza",
-         "title": "Computer science graduate",
-         "text": "User experience (UX) design is the process design teams use to create products."
+         "year": "2010 - 2014",
+         "title": "Bachelor of Telecommunication Engineering",
+         "text": "By the University of Zaragoza, obtaining the Extraordinary End of Bachelor Award for the best academic results."
        },
        {
-         "year": "University of Zaragoza",
-         "title": "Computer science masters",
-         "text": "User experience (UX) design is the process design teams use to create products."
+         "year": "2014 - 2016",
+         "title": "Master of Telecommunication Engineering",
+         "text": "By the University of Zaragoza, obtaining the Extraordinary End of Master Award for the best academic results."
        },
        {
-         "year": "University of Zaragoza",
-         "title": "PhD on cybersecurity",
-         "text": "User experience (UX) design is the process design teams use to create products."
+         "year": "2016 - 2021",
+         "title": "Doctorate in Cybersecurity",
+         "text": "By the University of Zaragoza, in the framework of the Mobile Network Information and Communication Technologies Doctoral Program."
        }
      ],
      "bot": [
        {
-         "year": "2017 - 2021",
+         "year": "2016 - 2021",
          "title": "Researcher at",
          "office": "Unizar",
-         "text": "User experience (UX) design is the process design teams use to create products."
+         "text": "Research in the design of secure architectures, focusing on Identity and Access management, API security and Secure Computation."
        },
        {
          "year": "2017 - 2020",
          "title": "Professor at",
          "office": "ACING",
-         "text": "Responsable del modulo \"Diseño de arquitecturas seguras\" en el Curso Avanzado de Ciberdefensa en la Academia de Ingenieros del Ejercito (ACING)."
+         "text": "Responsible for providing the \"Secure Architectures Design\" module in the Advanced Cyberdefense Course at the Army Academy of Engineers (ACING)."
+
        },
        {
          "year": "2017 - 2020",

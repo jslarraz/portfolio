@@ -40,27 +40,27 @@
     "content": {
       "top": [
         {
-          "year": "Universidad de Zaragoza",
+          "year": "2010 - 2014",
           "title": "Grado en Ing. Telecomunicaciones",
-          "text": "User experience (UX) design is the process design teams use to create products."
+          "text": "Por la Universidad de Zaragoza, obteniendo el Premio Extraordinario Fin de Grado al mejor expediente academico."
         },
         {
-          "year": "Universidad de Zaragoza",
+          "year": "2014 - 2016",
           "title": "Master en Ing. Telecomunicaciones",
-          "text": "User experience (UX) design is the process design teams use to create products."
+          "text": "Por la Universidad de Zaragoza, obteniendo el Premio Extraordinario Fin de Master al mejor expediente academico."
         },
         {
-          "year": "Universidad de Zaragoza",
+          "year": "2016 - 2021",
           "title": "Doctorado en Ciberseguridad",
-          "text": "User experience (UX) design is the process design teams use to create products."
+          "text": "Por la Universidad de Zaragoza, en el marco del Programa de Doctorado de Tecnologías de la Información y Comunicaciones en Redes Movies."
         }
       ],
       "bot": [
         {
-          "year": "2017 - 2021",
+          "year": "2016 - 2021",
           "title": "Investigador en ",
           "office": "Unizar",
-          "text": "User experience (UX) design is the process design teams use to create products."
+          "text": "Investigación en el diseño de arquitecturas seguras, prestando especial atencion a la administración de identidades y acceso (IAM), la seguridad en APIs y la computación segura multiparte."
         },
         {
           "year": "2017 - 2020",
@@ -72,17 +72,17 @@
           "year": "2017 - 2020",
           "title": "Asistente en ",
           "office": "COIT",
-          "text": "User experience (UX) design is the process design teams use to create products."
+          "text": "Tareas de organización de eventos y contacto con la empresa."
         }
       ]
     }
   },
 
   "portfolio": {
-    "subtitle": "Cualificationes ",
-    "title": "Educacion & Experiencia",
-    "content": "",
-    "button": "Descargar CV",
+    "subtitle": "Portfolio",
+    "title": "Algunos trabajos seleccionados",
+    "content": "User experience (UX) design is the process design teams use to create products,",
+    "button": "Ver mas",
     "link": "https://github.com/jslarraz"
   }
 }
