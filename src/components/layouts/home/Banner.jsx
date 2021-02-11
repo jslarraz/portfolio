@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom' 
+import {Link} from 'react-router-dom'
+import { withTranslation } from 'react-i18next'
+
 class Banner extends Component {
     render() {
+        const {t} = this.props
         return (
             <div className="section slide-personal-Intro-first">
                 <section className="banner-section s1" id="home">
@@ -9,16 +12,14 @@ class Banner extends Component {
                     <div className="content-text position-relative">
                         <div className="animate-element wow delay5 fadeInDown" data-wow-delay="0.3s">
                         <h1 className="cd-headline clip is-full-width title mg-b29 text-white">
-                            <span>Hello,&nbsp; </span>
+                            <span>{t('banner.title.0')}</span>
                             <span className="cd-words-wrapper color-d4">
-                            <b className="is-visible">I'm Jorge!</b>
-                            <b>I'm asdf!</b>
+                            <b className="is-visible">{t('banner.title.1')}</b>
+                            <b>{t('banner.title.2')}</b>
                             </span>
                         </h1>
                         <p className="lt-sp03 mg-b60 text-white">
-                            Hi, i m Jorge, doctor in cybersecurity looking for new challenges.<br />
-                            Wanna talk about it?
-
+                            {t('banner.content')}
                         </p>
                         </div>
                         <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
@@ -34,5 +35,5 @@ class Banner extends Component {
     }
 }
 
-export default Banner;
+export default withTranslation() (Banner);
 

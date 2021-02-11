@@ -12,9 +12,6 @@ class CaseStudy extends Component {
                                     <div className="featured-post">
                                         <Link to="#"><img src="images/section/40.jpg" alt="images" /></Link>
                                     </div>
-                                    <div className="portfolio-template-link text-center">
-                                        <Link to="#">Portfolio Template</Link>
-                                    </div>
                                 </div>
                                 <div className="image-link t1">
                                     <div className="featured-post">

@@ -1,14 +1,13 @@
 {
 
-  "header": {
-
-  },
-
   "banner": {
-
+    "title": {
+      "0": "Hello, ",
+      "1": "I'm Jorge!",
+      "2": "I'm asdf!"
+    },
+    "content": "Hi, i m Jorge, doctor in cybersecurity looking for new challenges. Wanna talk about it?"
   },
-
-
 
   "about": {
     "subtitle": "About Me",

@@ -1,5 +1,15 @@
 {
 
+  "banner": {
+    "title": {
+      "0": "Hola, ",
+      "1": "Soy Jorge!",
+      "2": "Soy asdf!"
+    },
+    "content": "Hey, soy Jorge, doctor en ciberseguridad buscando nuevos retos. ¿Hablamos?"
+
+  },
+
 
   "about": {
     "subtitle": "Sobre mi",

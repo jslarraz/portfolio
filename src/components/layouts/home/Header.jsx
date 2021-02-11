@@ -9,19 +9,31 @@ class Header extends Component {
     constructor(props){
         super(props);
         this.state = {}
+
+        this.ref = {
+            "es": React.createRef(),
+            "en": React.createRef()
+        }
+    }
+
+    setActive (lan) {
+        const { i18n } = this.props
+        i18n.changeLanguage(lan);
+
+        Object.keys(this.ref)
+            .map( key => this.ref[key].current.className = "");
+        this.ref[lan].current.className = "font-weight-bolder"
     }
 
     render() {
-
-        const { i18n } = this.props
 
         return (
             <header id="header" className="header header-style1">
                 <div className="container">
                     <div className="flex-header d-flex justify-content-between align-items-center">
-                        <div className="socials-list-hd s1 hv1">
-                            <Link to="#" onClick={() => { i18n.changeLanguage('en'); }} style={{fontWeight: 'bold'}}>EN</Link>
-                            <Link to="#" onClick={() => { i18n.changeLanguage('es'); }}>ES</Link>
+                        <div className="socials-list-hd s1 hv1" >
+                            <Link to="#" onClick={() => { this.setActive('en'); }} ref={this.ref['en']}>EN</Link>
+                            <Link to="#" onClick={() => { this.setActive('es'); }} ref={this.ref['es']}>ES</Link>
                         </div>
                         <div className="content-menu d-lg-flex">
                             <div className="nav-wrap">
@@ -29,7 +41,7 @@ class Header extends Component {
                                     <ul className="menu ace-responsive-menu" data-menu-style="horizontal">
                                         {
                                             menus.map(menu => (
-                                                <li key={menu.id}><Link to={menu.tomenu} className="click-model">{menu.namemenu}</Link></li>
+                                                <li key={menu.id1}><Link to={menu.tomenu} className="click-model">{menu.namemenu}</Link></li>
                                             ))
                                         }
                                     </ul>
