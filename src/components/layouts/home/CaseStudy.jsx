@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import { withTranslation } from 'react-i18next'
+
 class CaseStudy extends Component {
     render() {
+        const {t} = this.props
         return (
             <div className="tf-modal-content">
-                <section className="flat-case-study s1" id="portfolio">
+                <section className="flat-case-study s3" id="portfolio">
                     <div className="container">
                         <div className="d-md-flex">
                             <div className="col-left animate-element wow delay5 fadeInDown" data-wow-delay="0.5s">
@@ -19,16 +22,16 @@ class CaseStudy extends Component {
                                     </div>
                                 </div>
                                 <div className="fl-btn text-center"> 
-                                    <Link to="#" className="f-w500">Explore More</Link>
+                                    <a href={t('portfolio.link')} className="f-w500">{t('portfolio.button')}</a>
                                 </div>
                             </div>
                             <div className="flat-spacer" data-desktop={0} data-mobile={100} data-smobile={100} />
                             <div className="col-right animate-element wow delay5 fadeInUp" data-wow-delay="0.5s">
                                 <div className="flat-title t1 mg-b60">
-                                    <h4 className="sub-title mg-b13">Portfolio</h4>
-                                    <h2 className="title-section color-d12 mg-b20">Few selected works.</h2>
+                                    <h4 className="sub-title mg-b13">{t('portfolio.subtitle')}</h4>
+                                    <h2 className="title-section color-d12 mg-b20">{t('portfolio.title')}</h2>
                                     <p>
-                                        I'm a professional UX designer with 4 years of experience. My main focus is on listening and understanding your users.
+                                        {t('portfolio.content')}
                                     </p>
                                 </div>
                                 <div className="pd-right">
@@ -52,4 +55,4 @@ class CaseStudy extends Component {
     }
 }
 
-export default CaseStudy;
+export default withTranslation() (CaseStudy);

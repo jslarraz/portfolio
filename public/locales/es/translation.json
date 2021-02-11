@@ -1,5 +1,4 @@
 {
-
   "banner": {
     "title": {
       "0": "Hola, ",
@@ -7,10 +6,7 @@
       "2": "Soy asdf!"
     },
     "content": "Hey, soy Jorge, doctor en ciberseguridad buscando nuevos retos. ¿Hablamos?"
-
   },
-
-
   "about": {
     "subtitle": "Sobre mi",
     "title": {
@@ -19,8 +15,6 @@
     },
     "content": "Cosas sobre mi que no le importan a nadie"
   },
-
-
   "profile": [
     {
       "name": "LinkedIn",
@@ -39,8 +33,6 @@
       "normal": "¿Hablamos?"
     }
   ],
-
-
   "education": {
     "subtitle": "Cualificationes ",
     "title": "Educacion & Experiencia",
@@ -84,7 +76,13 @@
         }
       ]
     }
+  },
+
+  "portfolio": {
+    "subtitle": "Cualificationes ",
+    "title": "Educacion & Experiencia",
+    "content": "",
+    "button": "Descargar CV",
+    "link": "https://github.com/jslarraz"
   }
-
-
 }
