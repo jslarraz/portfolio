@@ -38,7 +38,7 @@ class Header extends Component {
                         <div className="content-menu d-lg-flex">
                             <div className="nav-wrap">
                                 <nav id="mainnav" className="mainnav">
-                                    <ul className="menu ace-responsive-menu" data-menu-style="horizontal">
+                                    <ul className="menu ace-responsive-menu"  data-menu-style="horizontal">
                                         {
                                             menus.map(menu => (
                                                 <li key={menu.id1}><Link to={menu.tomenu} className="click-model">{menu.namemenu}</Link></li>
