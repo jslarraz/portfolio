@@ -1,0 +1,88 @@
+{
+  "banner": {
+    "title": {
+      "0": "Hola, ",
+      "1": "Soy Jorge!",
+      "2": "Soy Jorge!"
+    },
+    "content": "Hey, soy Jorge, doctor en ciberseguridad buscando nuevos retos. ¿Hablamos?"
+  },
+  "about": {
+    "subtitle": "Sobre mi",
+    "title": {
+      "b": "Estoy aqui para ",
+      "y": "ayudarte."
+    },
+    "content": "Cosas sobre mi que no le importan a nadie"
+  },
+  "profile": [
+    {
+      "name": "LinkedIn",
+      "normal": "Sigueme"
+    },
+    {
+      "name": "GitHub",
+      "normal": "Mira mi trabajo"
+    },
+    {
+      "name": "CENIT",
+      "normal": "Posicion actual"
+    },
+    {
+      "name": "Skype",
+      "normal": "¿Hablamos?"
+    }
+  ],
+  "education": {
+    "subtitle": "Cualificationes ",
+    "title": "Educacion & Experiencia",
+    "button": "Descargar CV",
+    "content": {
+      "top": [
+        {
+          "year": "2010 - 2014",
+          "title": "Grado en Ing. Telecomunicaciones",
+          "text": "Por la Universidad de Zaragoza, obteniendo el Premio Extraordinario Fin de Grado al mejor expediente academico."
+        },
+        {
+          "year": "2014 - 2016",
+          "title": "Master en Ing. Telecomunicaciones",
+          "text": "Por la Universidad de Zaragoza, obteniendo el Premio Extraordinario Fin de Master al mejor expediente academico."
+        },
+        {
+          "year": "2016 - 2021",
+          "title": "Doctorado en Ciberseguridad",
+          "text": "Por la Universidad de Zaragoza, en el marco del Programa de Doctorado de Tecnologías de la Información y Comunicaciones en Redes Movies."
+        }
+      ],
+      "bot": [
+        {
+          "year": "2016 - 2021",
+          "title": "Investigador en ",
+          "office": "Unizar",
+          "text": "Investigación en el diseño de arquitecturas seguras, prestando especial atencion a la administración de identidades y acceso (IAM), la seguridad en APIs y la computación segura multiparte."
+        },
+        {
+          "year": "2017 - 2020",
+          "title": "Profesor en ",
+          "office": "ACING",
+          "text": "Responsable del modulo \"Diseño de arquitecturas seguras\" en el Curso Avanzado de Ciberdefensa en la Academia de Ingenieros del Ejercito (ACING)."
+        },
+        {
+          "year": "2017 - 2020",
+          "title": "Asistente en ",
+          "office": "COIT",
+          "text": "Tareas de organización de eventos y contacto con la empresa."
+        }
+      ]
+    }
+  },
+
+  "portfolio": {
+    "subtitle": "Portfolio",
+    "title": "Algunos trabajos seleccionados",
+    "content": "User experience (UX) design is the process design teams use to create products,",
+    "button": "Ver mas",
+    "link": "https://github.com/jslarraz"
+  }
+}
