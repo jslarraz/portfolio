@@ -29,6 +29,10 @@ i18n
 
         whitelist: availableLanguages,
 
+        backend: {
+            loadPath: `${window.location.pathname}locales/{{lng}}/translation.json`
+        },
+
         interpolation: {
             escapeValue: false, // no need for react. it escapes by default
         },
