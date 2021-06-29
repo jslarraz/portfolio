@@ -13,12 +13,12 @@ class CaseStudy extends Component {
                             <div className="col-left animate-element wow delay5 fadeInDown" data-wow-delay="0.5s">
                                 <div className="image-link t1">
                                     <div className="featured-post">
-                                        <Link to="#"><img src="images/section/40.jpg" alt="images" /></Link>
+                                        <a href="https://github.com/jslarraz/rmon_probe"><img src="images/section/40.jpg" alt="images" /></a>
                                     </div>
                                 </div>
                                 <div className="image-link t1">
                                     <div className="featured-post">
-                                        <Link to="#"><img src="images/section/41.jpg" alt="images" /></Link>
+                                        <a href="#"><img src="images/section/41.jpg" alt="images" /></a>
                                     </div>
                                 </div>
                                 <div className="fl-btn text-center"> 
@@ -37,12 +37,12 @@ class CaseStudy extends Component {
                                 <div className="pd-right">
                                     <div className="image-link t1">
                                         <div className="featured-post">
-                                            <Link to="#"><img src="images/section/42.jpg" alt="images" /></Link>
+                                            <a href="https://github.com/jslarraz/biometricBechmarkPlatform"><img src="images/section/42.jpg" alt="images" /></a>
                                         </div>
                                     </div>
                                     <div className="image-link t1">
                                         <div className="featured-post">
-                                            <Link to="#"><img src="images/section/43.jpg" alt="images" /></Link>
+                                            <a href="https://github.com/jslarraz/obliv-c"><img src="images/section/43.jpg" alt="images" /></a>
                                         </div>
                                     </div>
                                 </div>
